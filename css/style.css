@@ -98,6 +98,7 @@ figcaption, .figure-caption, .table-caption { text-align: left; font-size: 0.95r
 .table-scroll { overflow-x: auto; margin: 1rem 0 2rem; }
 table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 0.95rem; line-height: 1.5; }
 th, td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top; }
+td code { overflow-wrap: normal; }
 .work th, .work td { white-space: nowrap; }
 .align-center { text-align: center; }
 .align-right { text-align: right; }
