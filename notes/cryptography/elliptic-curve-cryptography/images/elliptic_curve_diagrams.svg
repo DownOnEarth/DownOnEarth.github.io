@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="206" viewBox="0 0 680 206" role="img" aria-labelledby="title desc">
+  <title id="title">Four elliptic-curve intersection diagrams</title>
+  <desc id="desc">Four numbered graphs showing points P, Q, and R on a red cubic curve and a blue line, with elliptic-curve addition equations below. Transparent background. Identity labels use the letter O. Blue point markers indicate the plotted point coordinates.</desc>
+  <defs>
+    <path id="curve" d="M 147.5 12.5
+      C 140 27, 122 58.2, 109.5 58.2
+      C 95 58.4, 75 42, 61 43.5
+      C 43 43.2, 35.2 63, 35.2 87.5
+      C 35.2 111, 43.6 132, 60.7 131.5
+      C 78.8 131.5, 96 115.4, 109.5 117.2
+      C 122.3 117.6, 139 145, 147.5 161"/>
+    <g id="axes" stroke="#828b89" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" fill="#828b89">
+      <path d="M 15.4 87.5 H 155.5 M 85.5 12.3 V 162.2" fill="none"/>
+      <path d="M 15.4 87.5 L 21.9 85.7 L 20.8 87.5 L 21.9 89.3 Z" stroke="none"/>
+      <path d="M 155.5 87.5 L 149 85.7 L 150.1 87.5 L 149 89.3 Z" stroke="none"/>
+      <path d="M 85.5 12.3 L 83.7 18.8 L 85.5 17.7 L 87.3 18.8 Z" stroke="none"/>
+      <path d="M 85.5 162.2 L 83.7 155.7 L 85.5 156.8 L 87.3 155.7 Z" stroke="none"/>
+    </g>
+  </defs>
+
+  <g fill="none" stroke="#f02420" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#curve"/>
+    <use href="#curve" transform="translate(173 0)"/>
+    <use href="#curve" transform="translate(346 0)"/>
+    <use href="#curve" transform="translate(514 0)"/>
+  </g>
+
+  <g>
+    <use href="#axes"/>
+    <use href="#axes" transform="translate(173.5 0)"/>
+    <use href="#axes" transform="translate(346 0)"/>
+    <use href="#axes" transform="translate(514 0)"/>
+  </g>
+
+  <g fill="none" stroke="#078fe2" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 11.2 121.5 L 157.5 12.3"/>
+    <path d="M 184.7 54.8 L 334.2 147.2"/>
+    <path d="M 395.5 12.5 V 161.9"/>
+    <path d="M 549.5 12.5 V 161.9"/>
+  </g>
+
+  <!-- Blue point markers at labeled point coordinates -->
+  <g fill="#078fe2" stroke="#078fe2" stroke-width="0.7">
+    <!-- Diagram 1: P, Q, R -->
+    <circle cx="36.46" cy="102.65" r="2.6"/>
+    <circle cx="98.78" cy="56.13" r="2.6"/>
+    <circle cx="140.69" cy="24.84" r="2.6"/>
+    <!-- Diagram 2: P, Q -->
+    <circle cx="209.70" cy="70.25" r="2.6"/>
+    <circle cx="289.35" cy="119.58" r="2.6"/>
+    <!-- Diagram 3: P, Q -->
+    <circle cx="395.50" cy="46.72" r="2.6"/>
+    <circle cx="395.50" cy="128.14" r="2.6"/>
+    <!-- Diagram 4: P -->
+    <circle cx="549.20" cy="87.50" r="2.6"/>
+  </g>
+
+  <g font-family="'Times New Roman', 'Liberation Serif', serif" fill="#171717">
+    <g font-size="18.3" font-weight="400">
+      <text x="19.6" y="20.1">1</text>
+      <text x="187.1" y="20.1">2</text>
+      <text x="356.0" y="20.1">3</text>
+      <text x="525.8" y="20.1">4</text>
+    </g>
+    <g font-size="16.5" font-weight="bold" font-style="italic">
+      <text x="21.0" y="104.0">P</text>
+      <text x="89.0" y="48.0">Q</text>
+      <text x="125.0" y="20.0">R</text>
+      <text x="194.0" y="82.0">P</text>
+      <text x="289.0" y="115.0">Q</text>
+      <text x="379.0" y="51.0">P</text>
+      <text x="378.0" y="136.0">Q</text>
+      <text x="534.5" y="80.0">P</text>
+    </g>
+    <g font-size="15.6" font-weight="bold" font-style="italic" text-anchor="middle">
+      <text x="85.0" y="193.5">P + Q + R = O</text>
+      <text x="259.0" y="193.5">P + Q + Q = O</text>
+      <text x="431.2" y="193.5">P + Q + O = O</text>
+      <text x="600.0" y="193.5">P + P + O = O</text>
+    </g>
+  </g>
+</svg>
